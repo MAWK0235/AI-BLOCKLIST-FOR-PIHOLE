@@ -1,0 +1,120 @@
+# AI Services Blocklist - November 2, 2023
+
+# Major AI Chatbots
+chatgpt.com
+*.chatgpt.com
+openai.com
+*.openai.com
+api.openai.com
+bard.google.com
+*.bard.google.com
+gemini.google.com
+*.gemini.google.com
+claude.ai
+*.claude.ai
+perplexity.ai
+*.perplexity.ai
+character.ai
+*.character.ai
+
+# Image Generation
+midjourney.com
+*.midjourney.com
+stability.ai
+*.stability.ai
+dreamstudio.ai
+*.dreamstudio.ai
+leonardo.ai
+*.leonardo.ai
+nightcafe.studio
+*.nightcafe.studio
+mage.space
+*.mage.space
+runwayml.com
+*.runwayml.com
+deepdreamgenerator.com
+*.deepdreamgenerator.com
+
+# AI Writing/Content Generation
+jasper.ai
+*.jasper.ai
+copy.ai
+*.copy.ai
+rytr.me
+*.rytr.me
+scalent.ai
+*.scalent.ai
+writesonic.com
+*.writesonic.com
+
+# AI Voice/Audio
+murf.ai
+*.murf.ai
+lovo.ai
+*.lovo.ai
+descript.com
+*.descript.com
+wellsaidlabs.com
+*.wellsaidlabs.com
+respeecher.com
+*.respeecher.com
+
+# AI Video Generation/Editing
+synthesia.io
+*.synthesia.io
+invideo.io
+*.invideo.io
+pictory.ai
+*.pictory.ai
+colossyan.com
+*.colossyan.com
+
+# AI Tools / Platforms
+replicating.io
+*.replicating.io
+huggingface.co
+*.huggingface.co
+gradient.space
+*.gradient.space
+replicate.com
+*.replicate.com
+autogen.io
+*.autogen.io
+together.ai
+*.together.ai
+typefull.com
+*.typefull.com
+
+# AI Search Engines
+you.com
+*.you.com
+andisearch.com
+*.andisearch.com
+
+# Miscellaneous AI Services
+deepmind.com
+*.deepmind.com
+amazon.science
+*.amazon.science
+google.ai
+*.google.ai
+meta.ai
+*.meta.ai
+microsoft.com/ai
+*.microsoft.com/ai
+nvidia.com/ai
+*.nvidia.com/ai
+
+# AI API Platforms (block cautiously - might break apps!)
+openai.com/api
+api.openai.com
+ai21labs.com/api
+*.ai21labs.com
+cohere.com/api
+*.cohere.com
+assemblyai.com/api
+*.assemblyai.com
+
+# AI Documentation/Learning (consider if you want to block access to learning resources)
+docs.openai.com
+*.docs.openai.com
