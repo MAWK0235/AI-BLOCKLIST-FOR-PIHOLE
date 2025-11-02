@@ -10,6 +10,13 @@
 0.0.0.0 platform.openai.com
 0.0.0.0 help.openai.com
 0.0.0.0 status.openai.com
+0.0.0.0 chatgpt.com
+
+# === Primary Web & API Domains ===
+0.0.0.0 qwen.ai
+0.0.0.0 www.qwen.ai
+0.0.0.0 chat.qwen.ai
+0.0.0.0 api.qwen.ai
 
 # Anthropic (Claude)
 0.0.0.0 claude.ai
