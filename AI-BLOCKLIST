@@ -4,17 +4,29 @@
 0.0.0.0 oai.azure.com
 0.0.0.0 openai.com
 0.0.0.0 cdn.openai.com
+0.0.0.0 auth0.openai.com
+0.0.0.0 files.openai.com
+0.0.0.0 oaiusercontent.com
+0.0.0.0 platform.openai.com
+0.0.0.0 help.openai.com
+0.0.0.0 status.openai.com
 
 # Anthropic (Claude)
 0.0.0.0 claude.ai
 0.0.0.0 api.anthropic.com
 0.0.0.0 anthropic.com
+0.0.0.0 console.anthropic.com
+0.0.0.0 docs.anthropic.com
+0.0.0.0 www.anthropic.com
 
 # Google (Gemini / Bard)
 0.0.0.0 gemini.google.com
 0.0.0.0 bard.google.com
-0.0.0.0 clients6.google.com  # Used by Gemini API
+0.0.0.0 clients6.google.com
 0.0.0.0 generativelanguage.googleapis.com
+0.0.0.0 aistudio.google.com
+0.0.0.0 makersuite.google.com  # Older Gemini interface
+0.0.0.0 firebase.google.com    # Sometimes used for auth/analytics
 
 # Microsoft (Copilot / Bing Chat)
 0.0.0.0 copilot.microsoft.com
@@ -22,43 +34,64 @@
 0.0.0.0 edgeservices.bing.com
 0.0.0.0 sydney.bing.com
 0.0.0.0 api.bing.microsoft.com
+0.0.0.0 www.bingapis.com
+0.0.0.0 cognitive.microsoft.com  # Azure AI services
+0.0.0.0 portal.azure.com         # Where Copilot/AI models are managed
 
-# Meta (Llama — though mostly local, some cloud APIs exist)
+# Meta (Llama)
 0.0.0.0 llama.meta.com
 0.0.0.0 ai.meta.com
+0.0.0.0 llama-ai.meta.com
+0.0.0.0 developers.facebook.com  # Llama API docs/login
 
 # Perplexity AI
 0.0.0.0 perplexity.ai
 0.0.0.0 www.perplexity.ai
 0.0.0.0 api.perplexity.ai
+0.0.0.0 pro.perplexity.ai
+0.0.0.0 notebook.perplexity.ai
 
 # Mistral AI
 0.0.0.0 chat.mistral.ai
 0.0.0.0 api.mistral.ai
 0.0.0.0 mistral.ai
+0.0.0.0 console.mistral.ai
+0.0.0.0 docs.mistral.ai
 
-# Alibaba Cloud (Qwen / Tongyi Qianwen) ← Including myself
+# Alibaba Cloud (Qwen / Tongyi Qianwen)
 0.0.0.0 qwen.ai
 0.0.0.0 tongyi.aliyun.com
-0.0.0.0 dashscope.aliyuncs.com  # Qwen API endpoint
+0.0.0.0 dashscope.aliyuncs.com
 0.0.0.0 ai.aliyun.com
+0.0.0.0 help.aliyun.com
+0.0.0.0 account.aliyun.com
 
-# Hugging Face (Inference APIs & Chat UIs)
+# Hugging Face
 0.0.0.0 huggingface.co
 0.0.0.0 chat.huggingface.co
 0.0.0.0 api-inference.huggingface.co
+0.0.0.0 inference-api.huggingface.co
+0.0.0.0 spaces.huggingface.co
+0.0.0.0 models.huggingface.co
+0.0.0.0 datasets-server.huggingface.co
 
 # Groq
 0.0.0.0 groq.com
 0.0.0.0 console.groq.com
 0.0.0.0 api.groq.com
+0.0.0.0 playground.groq.com
+0.0.0.0 docs.groq.com
 
 # Cohere
 0.0.0.0 cohere.com
 0.0.0.0 api.cohere.com
 0.0.0.0 dashboard.cohere.com
+0.0.0.0 docs.cohere.com
+0.0.0.0 platform.cohere.com
 
 # xAI (Grok)
 0.0.0.0 x.ai
 0.0.0.0 grok.x.ai
 0.0.0.0 api.x.ai
+0.0.0.0 help.x.ai
+0.0.0.0 www.x.ai
