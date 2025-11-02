@@ -1,49 +1,64 @@
 # OpenAI (ChatGPT)
-chatgpt.com
-*.chatgpt.com
-openai.com
-*.openai.com
-oaiusercontent.com
-*.oaiusercontent.com
-
-# Google (Gemini / Bard)
-gemini.google.com
-*.gemini.google.com
-bard.google.com
-*.bard.google.com
+0.0.0.0 chat.openai.com
+0.0.0.0 api.openai.com
+0.0.0.0 oai.azure.com
+0.0.0.0 openai.com
+0.0.0.0 cdn.openai.com
 
 # Anthropic (Claude)
-claude.ai
-*.claude.ai
-anthropic.com
-*.anthropic.com
+0.0.0.0 claude.ai
+0.0.0.0 api.anthropic.com
+0.0.0.0 anthropic.com
+
+# Google (Gemini / Bard)
+0.0.0.0 gemini.google.com
+0.0.0.0 bard.google.com
+0.0.0.0 clients6.google.com  # Used by Gemini API
+0.0.0.0 generativelanguage.googleapis.com
+
+# Microsoft (Copilot / Bing Chat)
+0.0.0.0 copilot.microsoft.com
+0.0.0.0 www.bing.com
+0.0.0.0 edgeservices.bing.com
+0.0.0.0 sydney.bing.com
+0.0.0.0 api.bing.microsoft.com
+
+# Meta (Llama — though mostly local, some cloud APIs exist)
+0.0.0.0 llama.meta.com
+0.0.0.0 ai.meta.com
 
 # Perplexity AI
-perplexity.ai
-*.perplexity.ai
-
-# xAI (Grok)
-x.ai
-*.x.ai
-grok.x.ai
-
-# Meta (Llama + AI experiences)
-meta.ai
-*.meta.ai
+0.0.0.0 perplexity.ai
+0.0.0.0 www.perplexity.ai
+0.0.0.0 api.perplexity.ai
 
 # Mistral AI
-mistral.ai
-*.mistral.ai
+0.0.0.0 chat.mistral.ai
+0.0.0.0 api.mistral.ai
+0.0.0.0 mistral.ai
+
+# Alibaba Cloud (Qwen / Tongyi Qianwen) ← Including myself
+0.0.0.0 qwen.ai
+0.0.0.0 tongyi.aliyun.com
+0.0.0.0 dashscope.aliyuncs.com  # Qwen API endpoint
+0.0.0.0 ai.aliyun.com
+
+# Hugging Face (Inference APIs & Chat UIs)
+0.0.0.0 huggingface.co
+0.0.0.0 chat.huggingface.co
+0.0.0.0 api-inference.huggingface.co
+
+# Groq
+0.0.0.0 groq.com
+0.0.0.0 console.groq.com
+0.0.0.0 api.groq.com
 
 # Cohere
-cohere.com
-*.cohere.com
+0.0.0.0 cohere.com
+0.0.0.0 api.cohere.com
+0.0.0.0 dashboard.cohere.com
 
-# Tongyi Lab (Qwen / Qwen Chat)
-qwen.ai
-chat.qwen.ai
-*.qwen.ai
-tongyi.aliyun.com
-*.tongyi.aliyun.com
-dashscope.aliyuncs.com  # API endpoint for Qwen
-*.docs.openai.com
+# xAI (Grok)
+0.0.0.0 x.ai
+0.0.0.0 grok.x.ai
+0.0.0.0 api.x.ai
