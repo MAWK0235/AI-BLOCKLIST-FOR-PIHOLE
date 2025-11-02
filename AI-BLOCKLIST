@@ -41,6 +41,7 @@ cohere.com
 
 # Tongyi Lab (Qwen / Qwen Chat)
 qwen.ai
+chat.qwen.ai
 *.qwen.ai
 tongyi.aliyun.com
 *.tongyi.aliyun.com
